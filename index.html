@@ -1,0 +1,546 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body style="background-color:#FFFAF0;">
+    
+<!-- header section starts -->
+
+<header style="background-color:#B6CBB2;">
+
+    <section class="flex">
+
+        <a href="#" class="logo"><i class="fas fa-food"></i> The Mona Lisa.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">New dishes</a>
+            <a href="#about">Our History</a>
+            <a href="#menu">Menu</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </section>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Pepperoni Pizza</h3>
+                        <p>Pizza sauce, mozzarella, and beef pepperoni</p>
+                        <a href="#" class="btn">order now</a>
+                    </div> 
+                    <div class="image">
+                        <img src="p/p.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Arabiata Pasta</h3>
+                        <p>Your choice of pasta types (linguine - penne) with tomato sauce, garlic and pepper</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="p/a.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Tiramisu</h3>
+                        <p>Coffee-flavoured Italian dessert</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="p/s.jpg" alt="">
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="swiper-pagination"></div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<div class="container" style="background-color:#FFFAF0;">
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> our dishes </h3>
+        <h1 class="heading"> New dishes </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="P/7.jpg" alt="">
+                <h3>Lemon Cheesecake</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>SAR 23</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="P/8.jpg" alt="">
+                <h3>Garlic Bread</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>SAR 9</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="P/9.jpg" alt="">
+                <h3>Rosemary Pepperoni</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>SAR 43</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- dishes section ends -->
+
+<!-- about section starts  -->
+
+<div class="container">
+
+    <section class="about" id="about">
+
+        <h1 class="sub-heading"> Our History </h3>
+        <h1 class="heading"> why choose us? </h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="p/12.jpg" alt="">
+            </div>
+    
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>Mona Lisa Restaurant is our project for this course. We chose the name because it is a global name and everyone knows it. We put all our favorite dishes that we would like to share with you, and we also want our restaurant to be international and well-known like the Mona Lisa painting.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<div class="container" style="background-color:#FFFAF0;">
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading"> today's speciality </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/d.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Chicken Pasta</h3>
+                    <p>Marinated chicken served with lemon cream pasta.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 54</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/a.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Arabiata Pasta</h3>
+                    <p>pasta penne with tomato sauce, garlic and pepper.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 48</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/g.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Linguine shrimp</h3>
+                    <p>Pasta with spicy tomato sauce and shrimp.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 56</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/h.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Vegeteriana</h3>
+                    <p>Mozzarella cheese, asparagus, capsicum, pine nuts.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 39</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/j.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Margarita</h3>
+                    <p>Mozzarella cheese, tomato, and oregano.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 35</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/p.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Pepperoni</h3>
+                    <p>Mozzarella cheese, tomato, and pepperoni.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 37</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/k.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cheesecake</h3>
+                    <p>Strawberry cheesecake ice cream.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 28</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/s.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Tiramisu</h3>
+                    <p>coffee-flavoured Italian dessert.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 31</span>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="p/l.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+
+                    </div>
+                    <h3>Creme Caramel</h3>
+                    <p>Custard dessert with a layer of caramel sauce.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 25</span>
+                </div>
+            </div>
+			    <div class="box">
+                <div class="image">
+                    <img src="p/0.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Ice latte</h3>
+                    <p>Cold coffee with Italian coffee.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 17</span>
+                </div>
+            </div>
+        <div class="box">
+                <div class="image">
+                    <img src="p/b.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Soft drinks</h3>
+                    <p>Cola, 7up, Mirinda, Sprite.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 8</span>
+                </div>
+            </div>
+        <div class="box">
+                <div class="image">
+                    <img src="p/33.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Passion fruit</h3>
+                    <p>Cold mojito with lemon.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">SAR 19</span>
+                </div>
+            </div>
+    
+    
+        </div>
+		
+    
+    </section>
+
+</div>
+
+<!-- menu section ends -->
+<!-- footer section starts  -->
+
+<div class="container" style="background-color:#fff;">
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Dammam</a>
+                <a href="#">Khobar</a>
+                <a href="#">Dhahran</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+966-532-4854</a>
+                <a href="#">+966-544-8762</a>
+                <a href="#">shaikhanas@gmail.com</a>
+                <a href="#">anasbhai@gmail.com</a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Linkedin</a>
+            </div>
+			<div class="box">
+                <h3>Owners of the Restaurant</h3>
+                <a href="#">Layla Busbait 201901571</a>
+                <a href="#">Fai Alhajri 201901854</a>
+                <a href="#">Lana Dawood 202002070</a>
+                <a href="#">Sara Alshammari 201902002</a>
+            </div>
+    
+        </div>
+    
+     
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<!-- <div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
